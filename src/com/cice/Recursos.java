@@ -13,7 +13,7 @@ public class Recursos {
         this.nombre = nombre;
     }
 
-    
+
     public long getFechaPublicacion() {
         return fechaPublicacion;
     }

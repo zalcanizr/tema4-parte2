@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f393b0fc-ebe7-4bd8-a513-ddd81cd3ddcf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/cice/Comics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/cice/Libros.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/cice/Prestamo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/cice/Recursos.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/cice/Revistas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cice/Main.java" afterPath="$PROJECT_DIR$/src/com/cice/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cice/Comics.java" afterPath="$PROJECT_DIR$/src/com/cice/Comics.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cice/Libros.java" afterPath="$PROJECT_DIR$/src/com/cice/Libros.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cice/Prestamo.java" afterPath="$PROJECT_DIR$/src/com/cice/Prestamo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cice/Recursos.java" afterPath="$PROJECT_DIR$/src/com/cice/Recursos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/cice/Revistas.java" afterPath="$PROJECT_DIR$/src/com/cice/Revistas.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Recursos.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Recursos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cice/Recursos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,41 +50,33 @@
       <file leaf-file-name="Prestamo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cice/Prestamo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Libros.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Libros.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cice/Libros.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
                 <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1204#1205#0" expanded="true" />
-                <element signature="e#1232#1233#0" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#874#875#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,27 +85,19 @@
       <file leaf-file-name="Comics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cice/Comics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#752#753#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,25 +106,18 @@
       <file leaf-file-name="Revistas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cice/Revistas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding>
                 <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,17 +145,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/cice/Producto.java" />
         <option value="$PROJECT_DIR$/src/com/cice/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/cice/Recursos.java" />
+        <option value="$PROJECT_DIR$/src/com/cice/Comics.java" />
         <option value="$PROJECT_DIR$/src/com/cice/Revistas.java" />
         <option value="$PROJECT_DIR$/src/com/cice/Prestamo.java" />
-        <option value="$PROJECT_DIR$/src/com/cice/Recursos.java" />
         <option value="$PROJECT_DIR$/src/com/cice/Libros.java" />
-        <option value="$PROJECT_DIR$/src/com/cice/Comics.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="986" />
-    <option name="y" value="204" />
+    <option name="x" value="1193" />
+    <option name="y" value="394" />
     <option name="width" value="2560" />
     <option name="height" value="1351" />
   </component>
@@ -291,8 +265,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="986" y="204" width="2560" height="1351" extended-state="0" />
-    <editor active="true" />
+    <frame x="1193" y="394" width="2560" height="1351" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -345,110 +318,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cice/Revistas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cice/Prestamo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cice/Libros.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1204#1205#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cice/Comics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="90" lean-forward="false" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cice/Revistas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cice/Recursos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cice/Prestamo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cice/Libros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
           </folding>
         </state>
       </provider>

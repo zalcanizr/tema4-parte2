@@ -1,11 +1,13 @@
 package com.cice;
 
-public class Revistas extends Recursos{
+import com.cice.primer.orden.Publicacion;
+
+public class Revistas extends Publicacion {
 
     private long numero;
     private String periodicidad;
 
-    public Revistas(long fechaPublicacion, String nombre) {
+    public Revistas(String fechaPublicacion, String nombre) {
         super(fechaPublicacion, nombre);
     }
 
@@ -26,5 +28,11 @@ public class Revistas extends Recursos{
     }
 
 
-
+    @Override
+    public String toString() {
+        return "Revistas{" +
+                "numero=" + numero +
+                ", periodicidad='" + periodicidad + '\'' +
+                '}';
+    }
 }

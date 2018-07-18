@@ -1,16 +1,18 @@
 package com.cice;
 
-public class Comics extends Recursos{
+import com.cice.primer.orden.Publicacion;
+
+public class Comics extends Publicacion {
 
     private long  numero;
     private String coleccion;
 
 
-    public Comics(long fechaPublicacion, String nombre) {
+    public Comics(String fechaPublicacion, String nombre) {
         super(fechaPublicacion, nombre);
     }
 
-    public Comics(long fechaPublicacion, String nombre, long numero, String coleccion) {
+    public Comics(String fechaPublicacion, String nombre, long numero, String coleccion) {
         super(fechaPublicacion, nombre);
         this.numero = numero;
         this.coleccion = coleccion;

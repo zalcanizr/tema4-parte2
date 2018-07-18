@@ -1,13 +1,16 @@
-package com.cice;
+package com.cice.primer.orden;
 
-public class Multimedia {
+public class Multimedia extends Recurso{
 
     private String titulo;
-    private double formato;
-    private double duracion;
+    private String formato;
+    private String duracion;
+
+    public Multimedia() {
+    }
 
 
-    public Multimedia(String titulo, double formato, double duracion) {
+    public Multimedia(String titulo, String formato, String duracion) {
         this.titulo = titulo;
         this.formato = formato;
         this.duracion = duracion;
@@ -21,19 +24,19 @@ public class Multimedia {
         this.titulo = titulo;
     }
 
-    public double getFormato() {
+    public String getFormato() {
         return formato;
     }
 
-    public void setFormato(double formato) {
+    public void setFormato(String formato) {
         this.formato = formato;
     }
 
-    public double getDuracion() {
+    public String getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(double duracion) {
+    public void setDuracion(String duracion) {
         this.duracion = duracion;
     }
 }

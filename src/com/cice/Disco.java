@@ -1,15 +1,26 @@
 package com.cice;
 
-public class Disco extends Multimedia{
+import com.cice.interfaces.IPrestamo;
+import com.cice.primer.orden.Multimedia;
+
+public class Disco extends Multimedia implements IPrestamo{
+
+    private String selloDiscografico;
+    private String artista;
+
 
     private boolean prestado;
 
-    public Disco(String titulo, double formato, double duracion) {
-        super(titulo, formato, duracion);
+
+
+    public Disco() {
     }
 
-    public Disco(String titulo, double formato, double duracion, boolean prestado) {
+
+    public Disco(String titulo, String formato, String duracion, String selloDiscografico, String artista, boolean prestado) {
         super(titulo, formato, duracion);
+        this.selloDiscografico = selloDiscografico;
+        this.artista = artista;
         this.prestado = prestado;
     }
 
@@ -19,5 +30,62 @@ public class Disco extends Multimedia{
 
     public void setPrestado(boolean prestado) {
         this.prestado = prestado;
+
+    }
+
+    public String getSelloDiscografico() {
+        return selloDiscografico;
+    }
+
+    public void setSelloDiscografico(String selloDiscografico) {
+        this.selloDiscografico = selloDiscografico;
+    }
+
+    public String getArtista() {
+        return artista;
+    }
+
+    public void setArtista(String artista) {
+        this.artista = artista;
+    }
+
+    @Override
+    public boolean prestar() {
+        if (isPrestado()){
+            return false;
+        }
+        else {
+            this.prestado = true;
+            return true;
+        }
+    }
+
+    @Override
+    public boolean devolver() {
+        if (isPrestado()){
+            this.prestado=false;
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+
+    @Override
+    public boolean prestado() {
+        return this.prestado;
+    }
+
+    @Override
+    public String toString() {
+        return "Disco{" +
+                "titulo='"+getArtista()+'\''+
+                "formato='"+getFormato()+'\''+
+                "duracion='"+getDuracion()+'\''+
+                "selloDiscografico='" + selloDiscografico + '\'' +
+                ", artista='" + artista + '\'' +
+                ", prestado=" + prestado +
+                '}';
     }
 }

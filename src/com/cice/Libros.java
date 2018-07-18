@@ -1,6 +1,9 @@
 package com.cice;
 
-public class Libros extends Recursos implements Prestamo{
+import com.cice.interfaces.IPrestamo;
+import com.cice.primer.orden.Publicacion;
+
+public class Libros extends Publicacion implements IPrestamo {
 
     private String edicion;
     private String isbn;
@@ -8,13 +11,13 @@ public class Libros extends Recursos implements Prestamo{
 
     private boolean prestado;
 
-    public Libros(long fechaPublicacion, String nombre) {
+    public Libros(String fechaPublicacion, String nombre) {
 
         super(fechaPublicacion, nombre);
     }
 
 
-    public Libros(long fechaPublicacion, String nombre, String edicion, String isbn, String autor) {
+    public Libros(String fechaPublicacion, String nombre, String edicion, String isbn, String autor) {
         super(fechaPublicacion, nombre);
         this.edicion = edicion;
         this.isbn = isbn;
@@ -48,18 +51,51 @@ public class Libros extends Recursos implements Prestamo{
         this.autor = autor;
     }
 
-
-    public void devolver() {
-        this.prestado=false;
+    public boolean isPrestado() {
+        return prestado;
     }
 
-
-    public void prestar() {
-        this.prestado = false;
+    public void setPrestado(boolean prestado) {
+        this.prestado = prestado;
     }
 
-    public boolean prestado(){
+    @Override
+    public boolean prestar() {
+        if (isPrestado()){
+            return false;
+        }
+        else {
+            this.prestado = true;
+            return true;
+        }
+    }
 
+    @Override
+    public boolean devolver() {
+        if (isPrestado()){
+            this.prestado=false;
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+
+    @Override
+    public boolean prestado() {
         return this.prestado;
+    }
+
+    @Override
+    public String toString() {
+        return "Libros{" +
+                "nombre='"+getNombre()+'\''+
+                "fecha publicacion='"+getFechaPublicacion()+'\''+
+                "edicion='" + edicion + '\'' +
+                ", isbn='" + isbn + '\'' +
+                ", autor='" + autor + '\'' +
+                ", prestado=" + prestado +
+                '}';
     }
 }

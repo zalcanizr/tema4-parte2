@@ -1,24 +1,24 @@
-package com.cice;
+package com.cice.primer.orden;
 
 
 
-public class Recursos {
+public class Publicacion extends Recurso{
 
 
-    private long fechaPublicacion;
+    private String fechaPublicacion;
     private String nombre;
 
-    public Recursos(long fechaPublicacion, String nombre) {
+    public Publicacion(String fechaPublicacion, String nombre) {
         this.fechaPublicacion = fechaPublicacion;
         this.nombre = nombre;
     }
 
 
-    public long getFechaPublicacion() {
+    public String getFechaPublicacion() {
         return fechaPublicacion;
     }
 
-    public void setFechaPublicacion(long fechaPublicacion) {
+    public void setFechaPublicacion(String fechaPublicacion) {
         this.fechaPublicacion = fechaPublicacion;
     }
 
